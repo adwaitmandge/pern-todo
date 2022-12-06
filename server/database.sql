@@ -1,0 +1,6 @@
+CREATE DATABASE pern_todo;
+
+CREATE TABLE todo(
+    todo_id BIGSERIAL NOT NULL PRIMARY KEY,
+    description VARCHAR(200) NOT NULL
+);
